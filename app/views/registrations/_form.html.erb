@@ -1,0 +1,64 @@
+<%= form_for @registration, :html => { :class => "form-horizontal well"} do |f| %>
+<table class="table table-condensed">
+	<thead class="well">
+		<tr>
+			<th class="span3">Personal Information</th>
+			<td></td>
+		</tr>
+	<tr>
+		<th class="span3">Complete Name:</th>
+		<td><%= f.text_field :name, :class => "span8" %></td>
+	</tr>
+	<tr>
+		<th class="span3">Address:</th>
+		<td><%= f.text_field :address, :class => "span8" %></td>
+	</tr>
+	<tr>
+		<th class="span3">Contact Number:</th>
+		<td><%= f.text_field :contact, :class => "span8" %></td>
+	</tr>
+	<tr>
+		<th class="span3">Birthday:</th>
+		<td><</td>
+	</tr>
+	<tr>
+		<th class="span3">Age:</th>
+		<td></td>
+	</tr>
+	<tr>
+		<th class="span3">Email:</th>
+		<td></td>
+	</tr>
+		</tbody>
+	</table>
+	<table class="table table-condensed">
+		<thead>
+			<th class="span3">Skeptron Information</th>
+			<th></th>
+		</thead>
+		<tbody>
+			<th class="span2">Skeptron Name:</th>
+			<td></td>
+		</tbody>
+		<tbody>
+			<th class="span2">Batch Name:</th>
+			<td></td>
+		</tbody>
+		<tbody>
+			<th class="span2">Date of survived:</th>
+			<td></td>
+		</tbody>
+		<tbody>
+			<th class="span2">Chapter:</th>
+			<td></td>
+		</tbody>
+		<tbody>
+			<th class="span2">District:</th>
+			<td></td>
+		</tbody>
+		<tbody>
+			<th class="span2">Grand Skeptron:</th>
+			<td></td>
+		</tbody>
+	</table>
+	<center><%= f.submit :class => "btn btn-primary" %></center>
